@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "311848017846",
+    "firebase_url": "https://reloderhelpdesk.firebaseio.com",
+    "project_id": "reloderhelpdesk",
+    "storage_bucket": "reloderhelpdesk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311848017846:android:9e2e754ea8f9b03c",
+        "android_client_info": {
+          "package_name": "resembrink.dev.reloader_helpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311848017846-oa22hg2di9hb3se2etpb0kr7gegaj6gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "resembrink.dev.reloader_helpdesk",
+            "certificate_hash": "65356ce3079543be30aaf547c9b7447abe559fe9"
+          }
+        },
+        {
+          "client_id": "311848017846-7puaoqbtfo77v36393sc1f4e14mss732.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM4rOrECjzK3VTugMwP17i3DlDDiYU2Pk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311848017846-7puaoqbtfo77v36393sc1f4e14mss732.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

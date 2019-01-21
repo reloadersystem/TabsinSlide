@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AuthFacebook.MainActivityFace">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/add_photo"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/id_photoResume"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/nameTextViewF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Nombre"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/emailTextViewF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/nameTextViewF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/uidTextViewF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="uid "
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/emailTextViewF"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:text="Iniciar Sesión"
+        />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Cerrar Sesión"
+        />
+
+</RelativeLayout>
